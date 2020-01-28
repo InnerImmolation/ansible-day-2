@@ -1,0 +1,1 @@
+web-srv1 ansible_ssh_host=172.28.128.3  ansible_connection=ssh ansible_user=vagrant

@@ -1,0 +1,9 @@
+- name: Install
+  hosts: web-srv1
+  roles:
+    - nginx
+    - java
+    - tomcat
+    - java-test
+    - nginx-test
+    - tomcat-test
